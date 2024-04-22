@@ -1,0 +1,46 @@
+.error1{
+    color: red;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+
+form{
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+div.form_group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 1em;
+  padding: 15px;
+  margin: 10px 0 5px 0;
+  width: 100%;
+}
+
+button {
+  background-color: #3498db;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+}
